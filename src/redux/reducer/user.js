@@ -1,9 +1,11 @@
+import { List } from "immutable";
+
 import ActionTypes from "../constants/ActionTypes";
 
 const initialState = {
-  likes: [],
-  dislikes: [],
-  bookmarks: []
+  likes: List(),
+  dislikes: List(),
+  bookmarks: List()
 };
 
 const userReducer = (state = initialState, action) => {
@@ -11,7 +13,7 @@ const userReducer = (state = initialState, action) => {
     case ActionTypes.ADD_LIKE:
       return {
         ...state,
-        likes: [...state.likes, action.payload],
+        likes: state.likes.push(action.payload),
         dislikes: state.dislikes.filter(title => title !== action.payload)
       };
     case ActionTypes.REMOVE_LIKE:
@@ -22,7 +24,7 @@ const userReducer = (state = initialState, action) => {
     case ActionTypes.ADD_DISLIKE:
       return {
         ...state,
-        dislikes: [...state.dislikes, action.payload],
+        dislikes: state.dislikes.push(action.payload),
         likes: state.likes.filter(title => title !== action.payload)
       };
     case ActionTypes.REMOVE_DISLIKE:
@@ -33,7 +35,7 @@ const userReducer = (state = initialState, action) => {
     case ActionTypes.ADD_BOOKMARK:
       return {
         ...state,
-        bookmarks: [...state.bookmarks, action.payload]
+        bookmarks: state.bookmarks.push(action.payload)
       };
     case ActionTypes.REMOVE_BOOKMARK:
       return {
