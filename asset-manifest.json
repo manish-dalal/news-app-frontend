@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/news-app-frontend/static/css/main.b1117f35.chunk.css",
-    "main.js": "/news-app-frontend/static/js/main.303c2e78.chunk.js",
-    "main.js.map": "/news-app-frontend/static/js/main.303c2e78.chunk.js.map",
+    "main.css": "/news-app-frontend/static/css/main.65db4685.chunk.css",
+    "main.js": "/news-app-frontend/static/js/main.8ef61d23.chunk.js",
+    "main.js.map": "/news-app-frontend/static/js/main.8ef61d23.chunk.js.map",
     "runtime-main.js": "/news-app-frontend/static/js/runtime-main.9c0f4ec9.js",
     "runtime-main.js.map": "/news-app-frontend/static/js/runtime-main.9c0f4ec9.js.map",
     "static/css/2.de424728.chunk.css": "/news-app-frontend/static/css/2.de424728.chunk.css",
-    "static/js/2.db457b24.chunk.js": "/news-app-frontend/static/js/2.db457b24.chunk.js",
-    "static/js/2.db457b24.chunk.js.map": "/news-app-frontend/static/js/2.db457b24.chunk.js.map",
+    "static/js/2.83ffa26d.chunk.js": "/news-app-frontend/static/js/2.83ffa26d.chunk.js",
+    "static/js/2.83ffa26d.chunk.js.map": "/news-app-frontend/static/js/2.83ffa26d.chunk.js.map",
     "index.html": "/news-app-frontend/index.html",
-    "precache-manifest.f5a7f15e4320af05fc8a5b4cb4330cbf.js": "/news-app-frontend/precache-manifest.f5a7f15e4320af05fc8a5b4cb4330cbf.js",
+    "precache-manifest.f7d3d4d9e182e4fddca64e21e2d3fde5.js": "/news-app-frontend/precache-manifest.f7d3d4d9e182e4fddca64e21e2d3fde5.js",
     "service-worker.js": "/news-app-frontend/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/news-app-frontend/static/css/2.de424728.chunk.css.map",
-    "static/css/main.b1117f35.chunk.css.map": "/news-app-frontend/static/css/main.b1117f35.chunk.css.map",
-    "static/js/2.db457b24.chunk.js.LICENSE.txt": "/news-app-frontend/static/js/2.db457b24.chunk.js.LICENSE.txt",
+    "static/css/main.65db4685.chunk.css.map": "/news-app-frontend/static/css/main.65db4685.chunk.css.map",
+    "static/js/2.83ffa26d.chunk.js.LICENSE.txt": "/news-app-frontend/static/js/2.83ffa26d.chunk.js.LICENSE.txt",
     "static/media/defaultBg.jpeg": "/news-app-frontend/static/media/defaultBg.c4750dc0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c0f4ec9.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.db457b24.chunk.js",
-    "static/css/main.b1117f35.chunk.css",
-    "static/js/main.303c2e78.chunk.js"
+    "static/js/2.83ffa26d.chunk.js",
+    "static/css/main.65db4685.chunk.css",
+    "static/js/main.8ef61d23.chunk.js"
   ]
 }
