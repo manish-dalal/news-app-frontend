@@ -1,0 +1,38 @@
+@import "colors";
+
+// ipad targeting
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .Home {
+    padding: 0;
+  }
+  .ItemCard {
+    flex-direction: column-reverse;
+    &_imageView {
+      width: 100%;
+    }
+    &_detail {
+      width: 100%;
+      max-width: unset;
+      padding: 5px;
+    }
+  }
+}
+
+// small mobile
+@media (max-width: 430px) {
+  .app-container {
+    width: 95%;
+  }
+  .Home_header .title {
+    margin: 0;
+  }
+  .Home_body_container {
+    justify-content: space-between;
+  }
+  .Home {
+    padding: 0;
+  }
+}
